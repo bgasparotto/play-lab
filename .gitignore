@@ -14,3 +14,9 @@ server.pid
 *.eml
 /dist/
 .cache
+/.g8/
+/.settings/
+/.project
+/.classpath
+/.cache-main
+/.cache-tests
