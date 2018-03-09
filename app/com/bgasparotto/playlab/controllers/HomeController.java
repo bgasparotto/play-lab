@@ -19,6 +19,6 @@ public class HomeController extends Controller {
     }
 
     public Result about() {
-    	return ok("About");
+    	return ok(com.bgasparotto.playlab.views.html.about.render("Top Frameworks", play.core.PlayVersion.current()));
     }
 }
